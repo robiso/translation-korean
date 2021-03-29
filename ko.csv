@@ -1,0 +1,89 @@
+OVERLAYS
+    ">Saving","> 저장하는 중"
+    ">Checking for updates",">업데이트 확인 중"
+
+
+BUTTONS
+    "> Settings","> 설정"
+
+
+MENU ITEMS
+    ">Current page","> 현재 페이지"
+    ">Menu","> 메뉴"
+    ">Files","> 파일"
+    ">Themes","> 테마"
+    ">Plugins","> 플러그인"
+    ">Security","> 보안"
+
+
+CURRENT PAGE
+    ">Page title","> 페이지 제목"
+    ">Page keywords","> 페이지 키워드"
+    ">Page description","> 페이지 설명"
+    "> Delete page","> 페이지 제거"
+    "return confirm\('Delete (.*?)\?'\)","return confirm('$1 페이지를 삭제할까요?')"
+
+
+MENU
+    ">Website title","> 사이트 제목"
+    ">Page to display on homepage","> 첫 화면으로 설정할 페이지"
+    ">visit","> 이동"
+    "> Add page","> 페이지 추가"
+
+
+FILES
+    ">Upload","> 업로드"
+    ">Delete files","> 파일 삭제"
+
+
+THEMES AND PLUGINS
+    "> Check for updates","> 업데이트 확인"
+    "return confirm\('Remove (.*?)\?'\)","return confirm('$1 테마를 삭제할까요?')"
+    ">Active","> 적용 중"
+    "return confirm\('Activate (.*?) theme\?'\)","return confirm('$1 테마를 적용할까요?')"
+    "> Activate","> 적용"
+    "> More info","> 추가 정보"
+    "> Install","> 설치"
+    ">Installed version:","> 설치된 버전:"
+    ">Custom repository","> 사용자 지정 저장소"
+    "Enter URL to custom repository","사용자 지정 저장소의 URL을 입력하세요."
+    "> Add","> 추가"
+    "> Read more about custom repositories","> 사용자 지정 저장소 관련 문서 확인"
+
+
+SECURITY
+    ">Admin login URL","> Admin-Login-URL"
+    ">Save your login URL to log in to your website next time:","> 현재 관리자 로그인 주소:"
+    ">Password","> 비밀번호"
+    "Old password","현재 비밀번호"
+    "New password","새로운 비밀번호"
+    "> Change password","> 비밀번호 변경"
+
+    "> How to restore backup","> WonderCMS 백업 방법"
+    ">Improved security \(Apache only\)","> 보안 강화 (Apache 서버에서만 사용 가능)"
+    ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.","> HTTPS 상시 적용, 30일 캐싱, 외부 iframe 금지, Mime 스니핑 방지, 쿠키와 리퍼러 설정 강화"
+    ">ON \(warning: may break your website\)","> 활성화 \(주의: 사이트가 깨질 수 있음\)"
+    ">OFF \(reset htaccess to default\)","> 비활성화 \(htaccess를 초기화\)"
+    "> Read more before enabling","> 자세한 정보"
+    ">Backup","> 백업"
+    "> Backup website","> 사이트 백업"
+    ">Last 5 logins","> 최근 5번의 로그인 기록"
+
+
+STATISTICS
+    ">Statistics","> 통계"
+    ">Today",">오늘"
+    ">This week",">이번 주"
+    ">Most popular page","> 인기 페이지"
+    ">Pageviews last two weeks","> 최근 2주 동안의 페이지 조회"
+    ">Sessions last two weeks","> 최근 2주 동안의 세션" 
+    ">Sessions","> 세션"
+    ">Pageviews","> 페이지 조회"
+
+
+FOOTER
+    ">News","> 업데이트 소식"
+    ">Community",">커뮤니티"
+    ">Docs","> 공식 문서"
+    ">Donate","> 후원"
+    ">Shop\/Merch",">후원 상품"
