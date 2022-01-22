@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "plugins": {
+        "translation-korean": {
+            "name": "Translation Korean",
+            "repo": "https://github.com/robiso/translation-korean/tree/main",
+            "zip": "https://github.com/robiso/translation-korean/archive/main.zip",
+            "summary": "WonderCMS 메뉴 한글 번역 플러그인",
+            "version": "1.0.0",
+            "image": "https://raw.githubusercontent.com/robiso/translation-korean/main/preview.jpg"
+        }
+    }
+}
