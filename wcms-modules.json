@@ -6,6 +6,7 @@
             "repo": "https://github.com/robiso/translation-korean/tree/main",
             "zip": "https://github.com/robiso/translation-korean/archive/main.zip",
             "summary": "WonderCMS 메뉴 한글 번역 플러그인",
+            "group": "translation",
             "version": "1.0.0",
             "image": "https://raw.githubusercontent.com/robiso/translation-korean/main/preview.jpg"
         }
