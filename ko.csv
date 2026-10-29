@@ -5,6 +5,7 @@ OVERLAYS
 
 BUTTONS
     "> Settings","> 설정"
+    "return confirm\('Log out\?'\)","return confirm('로그아웃할까요?')"
 
 
 MENU ITEMS
@@ -21,14 +22,18 @@ CURRENT PAGE
     ">Page keywords","> 페이지 키워드"
     ">Page description","> 페이지 설명"
     "> Delete page","> 페이지 제거"
-    "return confirm\('Delete (.*?)\?'\)","return confirm('$1 페이지를 삭제할까요?')"
-    "data-confirm=""Delete (.*?)\?""","data-confirm=""$1 페이지를 삭제할까요?"""
+    "return confirm\('Delete (.*?)\?'\)","return confirm('$1을(를) 삭제할까요?')"
+    "data-confirm=""Delete (.*?)\?""","data-confirm=""$1을(를) 삭제할까요?"""
 
 
 MENU
     ">Website title","> 사이트 제목"
     ">Page to display on homepage","> 첫 화면으로 설정할 페이지"
     ">visit","> 이동"
+    "title=""Make page private \(only you see it while logged in\)""","title=""페이지를 비공개로 설정 (로그인한 동안 나만 볼 수 있음)"""
+    "title=""Make page public""","title=""페이지를 공개로 설정"""
+    "lockIcon""><\/i> private<\/a>","lockIcon""></i> 비공개</a>"
+    "lockIcon""><\/i> public<\/a>","lockIcon""></i> 공개</a>"
     "> Add page","> 페이지 추가"
 
 
@@ -39,17 +44,24 @@ FILES
 
 THEMES AND PLUGINS
     "> Check for updates","> 업데이트 확인"
-    "return confirm\('Remove (.*?)\?'\)","return confirm('$1 테마를 삭제할까요?')"
-    "data-confirm=""Remove (.*?)\?""","data-confirm=""$1 테마를 삭제할까요?"""
+    "title=""Remove this repository from the list""","title=""이 저장소를 목록에서 제거"""
+    "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""$1을(를) 제거할까요? 이 저장소에서 설치한 항목은 그대로 남습니다."""
+    "return confirm\('Remove (.*?)\?'\)","return confirm('$1을(를) 제거할까요?')"
+    "data-confirm=""Remove (.*?)\?""","data-confirm=""$1을(를) 제거할까요?"""
     ">Active","> 적용 중"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('$1 테마를 적용할까요?')"
     "data-confirm=""Activate (.*?) theme\?""","data-confirm=""$1 테마를 적용할까요?"""
+    "data-confirm=""Disable (.*?)\?""","data-confirm=""$1을(를) 비활성화할까요?"""
+    "data-confirm=""This is an (.*?) plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""$1 그룹 플러그인입니다. $2을(를) 설치하면 $3이(가) 비활성화됩니다. 계속할까요?"""
+    "data-confirm=""This is an (.*?) plugin\. Updating (.*?) will keep it enabled and disable (.*?)\. Continue\?""","data-confirm=""$1 그룹 플러그인입니다. $2을(를) 업데이트하면 활성 상태로 유지되고 $3이(가) 비활성화됩니다. 계속할까요?"""
+    "data-confirm=""This is an (.*?) plugin\. Enabling (.*?) will disable (.*?)\. Continue\?""","data-confirm=""$1 그룹 플러그인입니다. $2을(를) 활성화하면 $3이(가) 비활성화됩니다. 계속할까요?"""
     "> Activate","> 적용"
     "> More info","> 추가 정보"
     "> Install","> 설치"
     ">Installed version:","> 설치된 버전:"
     ">Custom repository","> 사용자 지정 저장소"
     "Enter URL to custom repository","사용자 지정 저장소의 URL을 입력하세요."
+    "return confirm\('Adding unknown modules can be VERY dangerous, are you sure you want to continue\?'\)","return confirm('알 수 없는 모듈을 추가하는 것은 매우 위험할 수 있습니다. 계속할까요?')"
     "> Add","> 추가"
     "> Read more about custom repositories","> 사용자 지정 저장소 관련 문서 확인"
 
@@ -67,6 +79,7 @@ SECURITY
     ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.","> HTTPS 상시 적용, 30일 캐싱, 외부 iframe 금지, Mime 스니핑 방지, 쿠키와 리퍼러 설정 강화"
     ">ON \(warning: may break your website\)","> 활성화 \(주의: 사이트가 깨질 수 있음\)"
     ">OFF \(reset htaccess to default\)","> 비활성화 \(htaccess를 초기화\)"
+    "return confirm\('Are you sure\? This might break your website if you do not have SSL configured correctly\.'\)","return confirm('확실한가요? SSL이 올바르게 설정되지 않았다면 웹사이트가 작동하지 않을 수 있습니다.')"
     "> Read more before enabling","> 자세한 정보"
     ">Backup","> 백업"
     "> Backup website","> 사이트 백업"
