@@ -138,7 +138,6 @@ ALERTS
     "^Custom module not found\.$","사용자 지정 모듈을 찾을 수 없습니다."
     "Custom module <b>([^<]*)<\/b> removed from <a ([^>]*)>([^<]*)<\/a>\. Anything installed from it stays until you remove it\.","사용자 지정 모듈 <b>$1</b>을(를) <a $2>$3</a>에서 제거했습니다. 이 모듈에서 설치한 항목은 직접 제거할 때까지 그대로 남습니다."
     "Module successfully added to <a ([^>]*)>([^<]*)<\/b><\/a>\.","모듈을 <a $1>$2</b></a>에 추가했습니다."
-    "Every remaining page is private, so the new home page \(([^<]*?)\) is private too: visitors get the 404 page at the site address\. Make it public in Settings -> Menu\.","남은 페이지가 모두 비공개이므로 새 홈 페이지($1)도 비공개입니다. 방문자가 사이트 주소에서 404 페이지를 보게 됩니다. 설정 -> 메뉴에서 공개로 바꾸세요."
     "A private page cannot be the home page: visitors would get the 404 page at the site address\. Make it public first\.","비공개 페이지는 홈 페이지로 설정할 수 없습니다. 방문자가 사이트 주소에서 404 페이지를 보게 됩니다. 먼저 공개로 바꾸세요."
     "Could not write ([^<]*?)\. Check the free disk space and the permissions of the data folder; nothing was changed\.","$1을(를) 쓸 수 없습니다. 디스크 여유 공간과 data 폴더의 권한을 확인하세요. 변경된 내용은 없습니다."
     "This page cannot be saved: its parent page does not exist\. Create the parent page first\.","이 페이지를 저장할 수 없습니다. 상위 페이지가 존재하지 않습니다. 먼저 상위 페이지를 만드세요."
@@ -216,3 +215,4 @@ ALERTS
     "<b>Open file options to see your uploaded file<\/b>","<b>업로드한 파일을 보려면 파일 옵션을 여세요</b>"
     "^Cannot create ZIP archive\.$","ZIP 압축 파일을 만들 수 없습니다."
     "^Hide all alerts until next login$","다음 로그인까지 모든 알림 숨기기"
+    "^Make another page public first: the home page cannot be private\.$","먼저 다른 페이지를 공개로 바꾸세요. 홈 페이지는 비공개일 수 없습니다."
