@@ -22,6 +22,7 @@ CURRENT PAGE
     ">Page description","> 페이지 설명"
     "> Delete page","> 페이지 제거"
     "return confirm\('Delete (.*?)\?'\)","return confirm('$1 페이지를 삭제할까요?')"
+    "data-confirm=""Delete (.*?)\?""","data-confirm=""$1 페이지를 삭제할까요?"""
 
 
 MENU
@@ -39,8 +40,10 @@ FILES
 THEMES AND PLUGINS
     "> Check for updates","> 업데이트 확인"
     "return confirm\('Remove (.*?)\?'\)","return confirm('$1 테마를 삭제할까요?')"
+    "data-confirm=""Remove (.*?)\?""","data-confirm=""$1 테마를 삭제할까요?"""
     ">Active","> 적용 중"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('$1 테마를 적용할까요?')"
+    "data-confirm=""Activate (.*?) theme\?""","data-confirm=""$1 테마를 적용할까요?"""
     "> Activate","> 적용"
     "> More info","> 추가 정보"
     "> Install","> 설치"
